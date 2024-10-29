@@ -24,7 +24,7 @@
     height: 5.4cm;
     border: 1px solid black;
     gap: 1.4rem;
-    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 .ticket img {
