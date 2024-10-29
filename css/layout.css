@@ -1,7 +1,7 @@
 .wrapper {
     max-width: 1200px;
     margin: auto;
-    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 .flex-column {
