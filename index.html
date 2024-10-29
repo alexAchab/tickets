@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets Repas</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/print.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body class="flex-column">
+
+    <main class="wrapper">
+
+        <section class="flex-column flex-vcentre" id="form">
+
+            <div class="flex-column flex-vcentre gap" id="help">
+                <h1>Générer des tickets</h1>
+                <div class="flex-wrap flex-hcentre gap">
+                    <a href="#" onclick="window.print()" class="button">Imprimer</a>
+                    <button onclick="generateTickets()" class="button">+ Ajouter</button>
+                    <button onclick="location.reload()" class="button">Réinitialiser</button>
+                </div>
+                <p id="ticket-count">Tickets générés : 1</p>
+            </div>
+
+            <div id="tickets-container" class="flex-wrap flex-hcentre">
+                <div class="ticket flex-column" id="ticket-template">
+                    <div class="flex-btw">
+                        <img src="images/logos-oisellerie-de-barbezieux.png" alt="Oisellerie">
+                        <img src="images/blason_nouvelle-aquitaine-232989773.jpg" alt="Région">
+                    </div>
+                    <div class="flex-column flex-vcentre" id="inputs">
+                        <input type="text" id="name" placeholder="NOM Prénom">
+                        <p>Participation stagiaire obligatoire 1.50 €</p>
+                        <input type="text" id="date" value="Repas du JJ/MM/AAAA">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+
+</html>

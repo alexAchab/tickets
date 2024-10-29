@@ -1,0 +1,32 @@
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    page-break-inside: avoid;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-btw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-vcentre {
+    align-items: center;
+}
+
+.flex-hcentre {
+    justify-content: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gap {
+    gap: 1rem;
+}

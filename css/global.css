@@ -1,0 +1,34 @@
+:root {
+    --titleFont: 700 26px/1.15 'IBM Plex Sans Condensed', Arial, Helvetica, sans-serif;
+    --textFont: 400 18px/1.15 'IBM Plex Sans Condensed', Arial, Helvetica, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+h1 {
+    font: var(--titleFont);
+    color: #161616;
+}
+
+p,
+a,
+input,
+button {
+    font: var(--textFont);
+}
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+}

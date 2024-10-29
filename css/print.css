@@ -1,0 +1,22 @@
+@media print {
+
+    #help {
+        display: none;
+    }
+
+    body {
+        min-height: unset;
+        margin: 0;
+        padding: 0;
+    }
+
+    main.wrapper {
+        max-width: unset;
+        margin: 0;
+    }
+
+    #form {
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+}

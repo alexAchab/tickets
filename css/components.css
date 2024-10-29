@@ -1,0 +1,52 @@
+/*Buttons*/
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    text-decoration: none;
+    background-color: transparent;
+    color: #161616;
+    border: 1px solid #161616;
+    padding: 1rem 1.6rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #161616;
+    color: #E2E2E2;
+}
+
+/*Card*/
+.ticket {
+    width: 9.4cm;
+    height: 5.4cm;
+    border: 1px solid black;
+    gap: 1.4rem;
+    page-break-inside: avoid;
+}
+
+.ticket img {
+    width: 3cm;
+    margin: 0.2rem 0.6rem;
+}
+
+
+.ticket #inputs {
+    gap: 0.4rem;
+}
+
+.ticket input {
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+
+.ticket input#name {
+    color: #527599;
+}
+
+.ticket p {
+    color: red;
+}
